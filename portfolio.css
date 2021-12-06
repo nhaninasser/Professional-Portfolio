@@ -50,13 +50,21 @@ color:white;
   }
 
   h2{
-   text-align:left;
-   position:inherit;
+    position: inherit;
+    font-size: 75px;
+    border-right: 3px solid black;
+    flex-wrap: wrap;
+    color: darkblue;
+    text-align: inherit;
+    display: inline-block;
+    line-height: unset;
+    align-content: space-evenly;
    }
 
-  p{
+  .container2 p{
       flex-direction: row;
-      text-align:right;
+      text-align:center;
+      font-size: 20px;
   }
 
   h3{
@@ -87,27 +95,30 @@ color:white;
     border: 3px solid blue;
 }
 
-.div .container2 .box3{
-background-image: url(../Professional-Portfolio/assets/horiseon.png);
-width: auto;
+.box3{
+
+height: 100%;
+width: 100%;
+padding: 20px 20px;
 }
 
-.div .container2 .box4{
+.box4{
     background-image: url(./assets/run-buddy.png);
+    background-repeat: no-repeat;
     width:auto;
 }
 
-.div .container2 .box5{
+.box5{
     background-image: url(./assets/realestate.png);
     width: auto;
 }
 
-.div .container2 .box6{
+.box6{
     background-image: url(./assets/stockmarket.png);
     width: auto;
 }
 
-.div .container2 .box7{
+.box7{
     background-image: url(./assets/neemo.jpeg);
     width: auto;
 }
