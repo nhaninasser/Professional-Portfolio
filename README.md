@@ -24,7 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 # Screenshots
-![SS1](/Professional-Portfolio/assets/professional-portfolio.png)
+<img src="./assets/professional-portfolio.png"/>
 
 
 
